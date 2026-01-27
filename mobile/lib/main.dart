@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'AR MVP',
+      title: 'ARound',
       initialRoute: '/login',
       routes: appRouter,
     );

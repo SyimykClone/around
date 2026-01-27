@@ -8,4 +8,12 @@ class Poi {
     required this.name,
     required this.description,
   });
+
+  factory Poi.fromJson(Map<String, dynamic> json) {
+    return Poi(
+      id: json['id'] as int,
+      name: json['name'] as String,
+      description: json['description'] as String,
+    );
+  }
 }
